@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet prefetch" href="https://cdn.rawgit.com/mfd/e7842774e037edf15919037594a79b2b/raw/665bdfc532094318449f1010323c84013d5af953/graphik.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <title>ООО Лаборатория Интернет - Тестовое задание</title>
+</head>
+<body>
+  
+  <div class="container">
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <nav class="header__nav">
+          <a href="./index.html" class="header__logo">
+            <div>
+              <div style="display: flex;">
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: #2A6CEA; z-index: 10;"></div>
+                <div style="width: 24px; height: 24px; border-radius: 50%; background-color: #ECEFF2; margin-left: -11px;"></div>
+              </div>
+              <span>testLab</span>
+            </div>
+          </a>
+                    
+          <ol class="header__menu-desktop" id="menu">
+            <div class="header__menu-mobile__logo">
+              <div>
+                <div style="display: flex;">
+                  <div style="width: 24px; height: 24px; border-radius: 50%; background-color: #2A6CEA; z-index: 10;"></div>
+                  <div style="width: 24px; height: 24px; border-radius: 50%; background-color: #ECEFF2; margin-left: -11px;"></div>
+                </div>
+                <span>testLab</span>
+              </div>
+              <button class="header__menu-mobile__close">&times;</button>
+            </div>
+
+            <li><a href="#instructions__anchor">Как это работает</a></li>
+            <li><a href="#third__anchor">3-й блок</a></li>
+            <li><a href="#faq__anchor">Вопросы и ответы</a></li>
+            <li><a href="#form__anchor">Форма</a></li>
+          </ol>
+
+          <button class="header__burger-btn">
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+        
+        <div class="header__content">
+          <h1>Говорят, никогда не поздно сменить профессию</h1>
+          <p>Сделай круто тестовое задание и у тебя получится</p>
+          <a href="javascript:void(0)">Проще простого!</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="instructions" id="instructions__anchor">
+      <div class="instructions__wrapper wrapper">
+        <h2 class="instructions__header">Как это работает</h2>
+        <div class="instructions__content">
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="third" id="third__anchor">
+      <div class="third__wrapper wrapper">
+        <div class="third__text">
+          <h3>Круто, ты дошел до третьего блока</h3>
+          <p>
+            63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы свыше 15 000 ₽.
+            <br><br>
+            Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах.
+          </p>
+        </div>
+        <div class="third__image">
+          <img src="./images/third-1.png" alt="">
+          <img src="./images/third-2.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="reviews__wrapper wrapper">
+        <h2 class="reviews__header">Отзывы</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            
+          </div>            
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq__anchor">
+      <div class="faq__wrapper wrapper">
+        <h2 class="faq__header">Вопросы и ответы</h2>
+        <div class="faq__content">
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="survey">
+      <div class="survey__wrapper wrapper">
+
+      </div>
+    </section>
+
+    <section class="form" id="form__anchor">
+      <div class="form__wrapper wrapper">
+        <h2 class="form__header">Отправь форму</h2>
+        <form action="submit" id="form">
+          <div class="form__input">
+            <input type="text" id="username" placeholder="">
+            <label for="username">Имя</label>
+            <small class="form__warning-message" id="username-warning">Не менее 3-х символов</small>
+            <img src="" alt="" class="form__check-icon" id="username-check-icon">
+          </div>
+          <div class="form__input">
+            <input type="text" id="phone" placeholder="">
+            <label for="phone">Телефон</label>
+            <small class="form__warning-message" id="phone-warning">Неверные формат</small>
+            <img src="" alt="" class="form__check-icon" id="phone-check-icon">
+          </div>
+          <div class="form__checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Согласен, отказываюсь</label>
+          </div>
+          <button class="form__btn" id="submit-btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__wrapper wrapper">
+        <span>&copy; 2021 Лаборатория интернет</span>
+      </div>
+    </footer>
+
+    <button class="scroll-to-top">&#9650;</button>
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
